@@ -6,6 +6,7 @@
 
 Пример кода как можно использовать данную библиотеку
 
+```
 package main
 
 import (
@@ -31,5 +32,5 @@ func operation1(p c.ICache) {
 	userId = p.Get("userId")
 	fmt.Println(userId)
 }
-
+```
 
